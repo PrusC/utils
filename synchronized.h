@@ -1,3 +1,6 @@
+/* Tempplate Synchronized is to provide access to an object under a mutex */
+
+
 #pragma once
 #include <mutex>
 
