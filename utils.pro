@@ -1,7 +1,10 @@
 TEMPLATE = app
-CONFIG += console c++11
+CONFIG += console c++1z
 CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
         main.cpp
+
+HEADERS += \
+    synchronized.h
