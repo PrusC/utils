@@ -1,4 +1,4 @@
-/* Tempplate Synchronized is to provide access to an object under a mutex */
+/* Template Synchronized is to provide access to an object under a mutex */
 
 
 #pragma once

@@ -8,4 +8,5 @@ SOURCES += \
 
 HEADERS += \
     src/objectpool.h \
+    src/range.h \
     src/synchronized.h \
