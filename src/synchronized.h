@@ -12,8 +12,8 @@ public:
 
     template <typename U>
     struct Access {
-        U& ref_to_value;
         std::lock_guard<std::mutex> guard;
+        U& ref_to_value;
     };
 
     Access<T> GetAccess() {
@@ -21,7 +21,7 @@ public:
     }
 
     Access<const T> GetAccess() const {
-        return {value, lock_guard(m)};
+        return {lock_guard(m), value};
     }
 
 private:
