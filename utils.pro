@@ -7,6 +7,7 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
+    src/any.h \
     src/arithmetic.h \
     src/objectpool.h \
     src/range.h \
